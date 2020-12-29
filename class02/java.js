@@ -1,12 +1,12 @@
 'use strict';
 var naame= prompt('What is your name?');
-console.log(naame);
+// console.log(naame);
 alert("Hi " + naame +" , my name is Bayan");
 alert("Welcome to my own website "+ naame + " hope taht you like it:)");
 alert("Lets play a short yeror no game about me^^");
 
 var userasnswer = prompt('Am I university graduate?yes/no');
-console.log(userasnswer);
+// console.log(userasnswer);
 if (userasnswer.toLowerCase()==="yes"){
     alert("YEESSS");
 }else{
@@ -14,7 +14,7 @@ if (userasnswer.toLowerCase()==="yes"){
 }
 
 var userans2 = prompt ('Is Black my favorate color ?yes/no');
-console.log(userans2);
+// console.log(userans2);
 if (userans2.toLowerCase()==="yes"){
     alert("You got it right");
 }else {
@@ -22,7 +22,7 @@ if (userans2.toLowerCase()==="yes"){
 }
 
 var userans3 =prompt("Am I a night pesron?yes/no");
-console.log(userans3);
+// console.log(userans3);
 if (userans3.toLowerCase()==="yes"){
     alert("No I don't like the dark");
 }else {
@@ -30,7 +30,7 @@ if (userans3.toLowerCase()==="yes"){
 }
 
 var userans4 = prompt("Am I a reader?yes/no") ;
-console.log(userans4);
+// console.log(userans4);
 if (userans4.toLowerCase()==="yes"){
     alert("3 books a mounth ");
 }else{
@@ -38,7 +38,7 @@ if (userans4.toLowerCase()==="yes"){
 }
 
 var userans5= prompt("Do I love pets? yes/no");
-console.log(userans5);
+// console.log(userans5);
 if (userans5.toLowerCase()==="yes"){
     alert("they are the cutest thing ever");
 }else{
