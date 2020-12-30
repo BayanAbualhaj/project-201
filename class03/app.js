@@ -1,11 +1,22 @@
 'use strict';
+
 var b=0;
+
+welcome();
+function welcome() {
+    
+
+
 var naame= prompt('What is your name?');
 // console.log(naame);
 alert("Hi " + naame +" , my name is Bayan");
 alert("Welcome to my own website "+ naame + " hope taht you like it:)");
 alert("Lets play a short yeror no game about me^^");
+}
 
+q1();
+function q1() {
+    
 var userasnswer = prompt('Am I university graduate?yes/no');
 // console.log(userasnswer);
 if (userasnswer.toLowerCase()==="yes"){
@@ -15,6 +26,11 @@ if (userasnswer.toLowerCase()==="yes"){
     alert("yes I am ^^");
 }
 
+}
+q2();
+function q2() {
+    
+
 var userans2 = prompt ('Is Black my favorate color ?yes/no');
 // console.log(userans2);
 if (userans2.toLowerCase()==="yes"){
@@ -23,6 +39,10 @@ if (userans2.toLowerCase()==="yes"){
 }else {
     alert("Why not its the king of colors");
 }
+}
+q3();
+function q3() {
+    
 
 var userans3 =prompt("Am I a night pesron?yes/no");
 // console.log(userans3);
@@ -32,6 +52,10 @@ if (userans3.toLowerCase()==="yes"){
     alert("from dusk till down :D");
     b++
 }
+}
+q4();
+function q4() {
+    
 
 var userans4 = prompt("Am I a reader?yes/no") ;
 // console.log(userans4);
@@ -41,6 +65,10 @@ if (userans4.toLowerCase()==="yes"){
 }else{
     alert("I love reading");
 }
+}
+q5();
+function q5() {
+    
 
 var userans5= prompt("Do I love pets? yes/no");
 // console.log(userans5);
@@ -50,6 +78,10 @@ if (userans5.toLowerCase()==="yes"){
 }else{
     alert("I adore them");
 }
+}
+
+q6();
+function q6() {
 
 for (var i =0; i<4;i++){
     var siblings= prompt("How many siblings I have ? hint:it's a pair num");
@@ -65,6 +97,12 @@ for (var i =0; i<4;i++){
         alert("they are less than that please try again");
     }
 }
+    
+}
+
+q7();
+function q7() {
+    
 
 var brothersArray= ['ahmad','mohammad','mahmoud'];
 var counter =0;
@@ -89,5 +127,6 @@ while(counter <6 ){
         }
     }
 }
-
+}
 alert ("you got "+ b +" out of 7");
+
