@@ -1,0 +1,30 @@
+*{
+    background-color: rgb(230, 236, 243);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ h1 {
+    color: rgb(194, 36, 9);
+    text-align: center;
+    background-color: rgb(98, 138, 138);
+}
+li a {
+    display: block;
+    color: rgb(194, 36,9);
+    padding: 16px;
+    text-decoration: none;
+  }
+
+a:hover{
+    background-color: red;
+}
+
+h3, footer{
+    background-color: rosybrown;
+    border-style: dotted;
+}
+ ul li {
+     list-style: circle;
+ }
+
+
